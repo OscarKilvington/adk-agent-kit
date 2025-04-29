@@ -68,11 +68,11 @@ A convenience script `start_servers.sh` is provided to start the necessary serve
 
 ```bash
 ./start_servers.sh
-
+```
 This will start the ADK API server (port 8000) and the FastAPI wrapper server (port 8001).
 
 To start all three components, including the Streamlit UI, use the `--streamlit` flag:
-
+```bash
 ./start_servers.sh --streamlit
 ```
 Once running:
