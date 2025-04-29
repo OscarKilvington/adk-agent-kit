@@ -74,7 +74,7 @@ This will start the ADK API server (port 8000) and the FastAPI wrapper server (p
 To start all three components, including the Streamlit UI, use the `--streamlit` flag:
 
 ./start_servers.sh --streamlit
-
+```
 Once running:
 *   The **ADK API server** (agent execution and chat UI) will be available at `http://localhost:8000`. The chat UI specifically is at `http://localhost:8000/dev-ui`.
 *   The **FastAPI management API** documentation (Swagger UI) will be available at `http://localhost:8001/docs`.
